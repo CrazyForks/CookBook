@@ -219,15 +219,15 @@ cd CookBook
 3. **提交改动**：`git commit -am 'Add some feature'`
 4. **创建 Pull Request**
 
-目前待办清单中还有不少内容建设中：
+目前待办清单已全部完成：
 - [x] Tomcat 架构与调优专题
 - [x] Docker 容器化专题
 - [x] Kubernetes 容器编排专题
 - [x] Seata 分布式事务实战
 - [x] ELK 日志采集与分析
 - [x] Prometheus + Grafana 监控体系
-- [ ] Jenkins Pipeline 流水线
-- [ ] Kafka 高级特性与源码分析
+- [x] Jenkins Pipeline 流水线
+- [x] Kafka 高级特性与源码分析
 
 欢迎一起完善！
 

@@ -443,9 +443,9 @@ cd CookBook
 - 🐶[编写一个Maven插件](Maven/1-编写一个Maven插件.md)
 - [Maven-profile配置](Maven/2-Maven-profile配置.md)
 
-## **Jenkins**（建设中）
+## **Jenkins**
 
-> 计划内容：Jenkins Pipeline 流水线、自动化构建与部署、Blue Ocean 可视化、与 Maven/Git 集成、分布式构建节点配置
+- :tada:[1-Jenkins Pipeline 流水线实战](Jenkins/1-JenkinsPipeline流水线实战.md) - 声明式/脚本式 Pipeline、参数化构建、多环境部署、Shared Library、Blue Ocean 可视化、K8s 动态 Agent
 
 <a id="topic-design-pattern"></a>
 ## **设计模式**
@@ -490,8 +490,7 @@ cd CookBook
 
 - [1-Kafka基础](Kafka/1-Kafka基础.md)
 - [2-Kafka核心知识与实战](Kafka/2-Kafka核心知识与实战.md) - 生产者消费者设计、副本机制、事务消息、Spring Kafka集成、性能调优
-
-    
+- :tada:[3-Kafka高级特性与源码分析](Kafka/3-Kafka高级特性与源码分析.md) - 幂等生产者、事务消息、消费者再均衡、ISR副本同步、日志存储、精确一次语义、源码分析
 
 <a id="topic-rocketmq"></a>
 ## **RocketMQ**
@@ -718,9 +717,9 @@ cd CookBook
 
 ### 待办清单
 - [x] Tomcat 架构与调优专题
-- [ ] HttpClient4 高级用法
-- [ ] Jenkins Pipeline 流水线
-- [ ] Kafka 高级特性与源码分析
+- [x] HttpClient4 高级用法
+- [x] Jenkins Pipeline 流水线
+- [x] Kafka 高级特性与源码分析
 - [x] Docker / Kubernetes 容器化专题
 - [x] Seata 分布式事务实战
 - [x] ELK 日志采集与分析
