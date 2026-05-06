@@ -552,9 +552,12 @@ cd CookBook
 <a id="topic-jvm"></a>
 ## **JVM**
 
-- 💥[JVM参数](JVM/1-JVM参数.md)
-- 💥[jstat命令详解](JVM/2-jstat命令详解.md)
-- 💥[JVM内存分配与回收策略案例](JVM/11-内存分配与回收策略案例.md)
+- :tada:[1-JVM内存模型与垃圾回收](JVM/1-JVM内存模型与垃圾回收.md) - 内存结构（堆/栈/方法区）、垃圾回收算法、收集器（G1/ZGC）、JVM参数速查
+- :tada:[2-JVM性能调优实战](JVM/2-JVM性能调优实战.md) - 内存配置、GC调优步骤、常见问题调优、生产环境配置案例
+- :tada:[3-JVM监控与故障排查](JVM/3-JVM监控与故障排查.md) - jstat/jmap/jstack、Arthas在线诊断、CPU/内存/线程问题排查、Prometheus监控
+- [JVM参数](JVM/1-JVM参数.md) - 常用JVM参数速查
+- [jstat命令详解](JVM/2-jstat命令详解.md) - jstat命令使用详解
+- [JVM内存分配与回收策略案例](JVM/11-内存分配与回收策略案例.md) - 内存分配与回收实战案例
 
 <a id="topic-zookeeper"></a>
 ## **Zookeeper**
@@ -579,32 +582,34 @@ cd CookBook
 
 ## Code Refactoring（代码重构）
 
+## **Lua**
+
+- :tada:[4-Lua基础语法与核心概念](Lua/4-Lua基础语法与核心概念.md) - 数据类型、变量、运算符、控制结构、函数、表（Table）、模块、协程
+- :tada:[5-Lua在Redis-OpenResty中的应用](Lua/5-Lua在Redis-OpenResty中的应用.md) - Redis Lua脚本（分布式锁/限流器）、OpenResty编程（请求处理/中间件）、Java集成
+- [Lua语言入门指南](Lua/1-Lua语言入门指南.md) - Lua语言基础入门
+- [Lua语言编程指南](Lua/2-Lua语言编程指南.md) - Lua编程进阶
+- [Lua编程高级](Lua/3-Lua编程高级.md) - Lua高级特性
+
 ## **Linux**
 
-- 🐧[1-Linux基础](Linux/1-Linux基础.md)
+- :tada:[1-Linux系统管理与常用命令](Linux/1-Linux系统管理与常用命令.md) - 目录结构、文件操作、用户管理、进程管理、网络管理、磁盘管理、包管理
+- :tada:[2-Shell脚本编程实战](Linux/2-Shell脚本编程实战.md) - 变量、流程控制、函数、输入输出、错误处理、实战脚本（备份/监控/清理）
+- :tada:[3-Linux性能监控与故障排查](Linux/3-Linux性能监控与故障排查.md) - CPU/内存/IO/网络监控工具、故障排查流程、性能优化建议
 
-- 🐧[2-Linux用户磁盘管理](Linux/2-Linux用户磁盘管理.md)
+### 原有资源
 
-- 🐧[3-Linux的vi、vim使用](Linux/3-Linux的vi、vim使用.md)
-
-- 🐧[4-Linux的yum命令](Linux/4-Linux的yum命令.md)
-
-- 🐧[5-yum源配置](Linux/5-yum源配置.md)
-
-- 🐧[6-常用操作快捷键](Linux/6-常用操作快捷键.md)
-
-- 🐧[7- Linux环境下的各种常用开发软件安装教程](Linux/7- Linux环境下的各种常用开发软件安装教程.md)
-
-    ### 🐧awk 脚本语言
-
-    - 🐧[AWK 脚本语言](Linux/awk/1-awk入门.md)
-
-    ### 🐧Shell 脚本编程语言
-
-    - 🐧[shell基础入门知识](Linux/shell/1-shell基础教程.md)
-    - 🐧[shell基本语法](Linux/shell/2-shell基本语法.md)
-    - 🐧[shell运算符汇总](Linux/shell/3-shell运算符汇总.md)
-    - 🐧[shell的echo、printf、test详细介绍](Linux/shell/4-shell的echo、printf、test详细介绍.md)
+- [1-Linux基础](Linux/1-Linux基础.md)
+- [2-Linux用户磁盘管理](Linux/2-Linux用户磁盘管理.md)
+- [3-Linux的vi、vim使用](Linux/3-Linux的vi、vim使用.md)
+- [4-Linux的yum命令](Linux/4-Linux的yum命令.md)
+- [5-yum源配置](Linux/5-yum源配置.md)
+- [6-常用操作快捷键](Linux/6-常用操作快捷键.md)
+- [7-Linux环境下的各种常用开发软件安装教程](Linux/7- Linux环境下的各种常用开发软件安装教程.md)
+- [AWK脚本语言](Linux/awk/1-awk入门.md)
+- [Shell基础教程](Linux/shell/1-shell基础教程.md)
+- [Shell基本语法](Linux/shell/2-shell基本语法.md)
+- [Shell运算符汇总](Linux/shell/3-shell运算符汇总.md)
+- [Shell的echo、printf、test](Linux/shell/4-shell的echo、printf、test详细介绍.md)
 
 ## **Python3**
 
