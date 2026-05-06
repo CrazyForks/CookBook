@@ -336,12 +336,30 @@ cd CookBook
 
 ## **Git**
 
+- :tada:[1-Git基础入门与核心概念](Git/1-Git基础入门与核心概念.md) - 安装配置、SSH设置、文件状态、基础命令、远程仓库、.gitignore、标签管理
+- :tada:[2-Git分支管理与工作流](Git/2-Git分支管理与工作流.md) - 分支操作、合并策略、Git Flow、GitHub Flow、Trunk-Based、分支命名规范
+- :tada:[3-Git高级技巧与实战](Git/3-Git高级技巧与实战.md) - Stash暂存、Reset/Revert、Cherry-pick、交互式Rebase、Reflog、Bisect、Submodule、Git LFS
+- :tada:[4-Git多人协作与代码审查](Git/4-Git多人协作与代码审查.md) - Pull Request流程、代码审查规范、冲突解决、Fork工作流、Issue关联、GitHub Actions
+- :tada:[5-Git与Jenkins自动构建集成](Git/5-Git与Jenkins自动构建集成.md) - Webhook配置、Pipeline集成、分支触发策略、Shared Library、Tag版本发布
+- :tada:[6-Git大型项目与微服务架构实践](Git/6-Git大型项目与微服务架构实践.md) - Monorepo vs Multirepo、增量构建、多服务协同发布、Git Hooks自动化
+
+### 快速导航
+
+| 场景 | 推荐文档 |
+|------|---------|
+| Git 入门 | [基础入门与核心概念](Git/1-Git基础入门与核心概念.md) |
+| 团队协作 | [分支管理与工作流](Git/2-Git分支管理与工作流.md) |
+| 进阶技巧 | [高级技巧与实战](Git/3-Git高级技巧与实战.md) |
+| 代码审查 | [多人协作与代码审查](Git/4-Git多人协作与代码审查.md) |
+| CI/CD | [Jenkins自动构建集成](Git/5-Git与Jenkins自动构建集成.md) |
+| 微服务 | [大型项目与微服务架构](Git/6-Git大型项目与微服务架构实践.md) |
+
+### 原有资源
+
 - [基于Github从零开始搭建个人博客(上)](Git/0-基于Github从零开始搭建个人博客.md)
 - [基于Github从零开始搭建个人博客(下)](Git/0-基于Github从零开始搭建个人博客%28下%29.md)
-  - [博客](https://zyt505050.gitee.io/2019/01/28/ji-yu-github-hexo-cong-ling-kai-shi-da-jian-ge-ren-bo-ke-xia/)
-- :sparkles:[Git提交添加emoji图标](Git/gitCookbook/1-Git提交添加emoji图标.md)
-- [Github给项目添加徽标](Git/2-github-travis-ci.md)
-- 😆[更多github emoji徽标](Git/gitemojiall.md)
+- [Git提交添加emoji图标](Git/gitCookbook/1-Git提交添加emoji图标.md)
+- [更多github emoji徽标](Git/gitemojiall.md)
 
 <a id="topic-javassist"></a>
 ## **Javassist**
