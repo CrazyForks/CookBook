@@ -633,12 +633,27 @@ cd CookBook
 | Android 移动端 | Gson | [使用指南](JSON/gson/1-Gson使用指南.md) |
 | 企业级应用 | Jackson | [最佳实践](JSON/5-SpringBoot-JSON集成最佳实践.md) |
 
-## **Mockito**
+## **单元测试与Mockito**
 
-- Mockito基础
-    - [首次使用Mockito](Mockito/Mockito基础/1-开始@Mock-@Spy-@Captor-@InjectMocks.md)
-- Mockito高级
-- Mockito集成
+- :tada:[1-单元测试基础与JUnit5](Mockito/1-单元测试基础与JUnit5.md) - 测试金字塔、JUnit 5架构、基础注解、参数化测试、嵌套测试、条件测试
+- :tada:[2-Mockito核心用法详解](Mockito/2-Mockito核心用法详解.md) - 创建Mock对象、设置返回值、参数匹配器、验证调用、Spy对象、ArgumentCaptor、BDD风格
+- :tada:[3-Mockito高级特性与最佳实践](Mockito/3-Mockito高级特性与最佳实践.md) - 深度Mock、静态方法Mock、构造函数Mock、Final类Mock、异步测试、AssertJ集成、测试构建器
+- :tada:[4-SpringBoot测试实战](Mockito/4-SpringBoot测试实战.md) - 单元测试、Web切片测试、DataJpa切片测试、JSON切片测试、集成测试、TestContainers
+- :tada:[5-测试覆盖率与质量保障](Mockito/5-测试覆盖率与质量保障.md) - JaCoCo配置、Checkstyle/SpotBugs/PMD、CI/CD集成、SonarQube、测试报告
+
+### 快速导航
+
+| 场景 | 推荐文档 |
+|------|---------|
+| JUnit 5 入门 | [单元测试基础与JUnit5](Mockito/1-单元测试基础与JUnit5.md) |
+| Mock 依赖 | [Mockito核心用法详解](Mockito/2-Mockito核心用法详解.md) |
+| 高级 Mock | [Mockito高级特性与最佳实践](Mockito/3-Mockito高级特性与最佳实践.md) |
+| Spring Boot 测试 | [SpringBoot测试实战](Mockito/4-SpringBoot测试实战.md) |
+| 覆盖率与质量 | [测试覆盖率与质量保障](Mockito/5-测试覆盖率与质量保障.md) |
+
+### 原有资源
+
+- [首次使用Mockito注解](Mockito/Mockito基础/1-开始@Mock-@Spy-@Captor-@InjectMocks.md) - @Mock/@Spy/@Captor/@InjectMocks 基础
 
 ## **分布式配置中心**
 
