@@ -594,22 +594,20 @@ cd CookBook
 
 ## **JSON**
 
-### [**Fastjson**](https://github.com/alibaba/fastjson)
+- :tada:[0-JSON框架概览与对比](JSON/0-JSON框架概览与对比.md) - JSON发展历程、Jackson/Gson/Fastjson2对比、性能测试、安全分析、选型建议、迁移指南
+- :tada:[1-Jackson深度指南](JSON/jackson/1-Jackson深度指南.md) - ObjectMapper配置、注解详解、树模型、流式API、自定义序列化器、视图、Mixin、Spring Boot集成、性能优化
+- :tada:[2-Gson使用指南](JSON/gson/1-Gson使用指南.md) - TypeToken泛型处理、TypeAdapter自定义、@SerializedName/@Expose注解、树模型操作、Spring Boot集成
+- :tada:[3-Fastjson2使用指南](JSON/fastjson2/1-Fastjson2使用指南.md) - 性能优化、JSONPath查询、JSONB二进制格式、安全配置、autoType白名单、Spring Boot集成
+- :tada:[5-SpringBoot-JSON集成最佳实践](JSON/5-SpringBoot-JSON集成最佳实践.md) - Jackson/Gson/Fastjson2集成、统一响应格式、自定义序列化器、JSON视图、安全配置、性能优化
 
-### net.sf.json
+### 快速导航
 
-### [**Jackson**](JSON/jackson/jackson编程指南.md)
-
-### **Gson**
-
-### 应用场景示例
-
-- bean转String
-- String转bean
-- List转String
-- String转List
-- Map转String
-- String转Map
+| 场景 | 推荐框架 | 文档 |
+|------|---------|------|
+| Spring Boot 项目 | Jackson | [深度指南](JSON/jackson/1-Jackson深度指南.md) |
+| 追求极致性能 | Fastjson2 | [使用指南](JSON/fastjson2/1-Fastjson2使用指南.md) |
+| Android 移动端 | Gson | [使用指南](JSON/gson/1-Gson使用指南.md) |
+| 企业级应用 | Jackson | [最佳实践](JSON/5-SpringBoot-JSON集成最佳实践.md) |
 
 ## **Mockito**
 
