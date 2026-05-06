@@ -440,8 +440,14 @@ cd CookBook
 <a id="topic-maven"></a>
 ## **Maven**
 
-- 🐶[编写一个Maven插件](Maven/1-编写一个Maven插件.md)
-- [Maven-profile配置](Maven/2-Maven-profile配置.md)
+- :tada:[1-Maven基础入门与核心概念](Maven/1-Maven基础入门与核心概念.md) - 安装配置、POM详解、生命周期、目录结构、常用命令、内置属性
+- :tada:[2-Maven依赖管理深度解析](Maven/2-Maven依赖管理深度解析.md) - 依赖范围、传递依赖、依赖调解、版本管理、依赖排除、依赖分析
+- :tada:[3-Maven多模块项目实践](Maven/3-Maven多模块项目实践.md) - 模块划分、父POM配置、聚合与继承、依赖关系、构建命令
+- :tada:[4-Maven常用插件详解](Maven/4-Maven常用插件详解.md) - 编译插件、测试插件、打包插件、代码质量插件、版本发布、Enforcer规则
+- :tada:[5-Maven仓库管理与私服配置](Maven/5-Maven仓库管理与私服配置.md) - 本地仓库、远程仓库、Nexus搭建、Artifactory配置、GitHub Packages
+- :tada:[6-Maven构建最佳实践与性能优化](Maven/6-Maven构建最佳实践与性能优化.md) - POM规范、并行构建、CI/CD集成、发布流程、常见问题解决
+- [编写一个Maven插件](Maven/1-编写一个Maven插件.md) - 自定义插件开发、Mojo编写、插件测试
+- [Maven Profile配置](Maven/2-Maven-profile配置.md) - Profile激活方式、多环境配置
 
 ## **Jenkins**
 
