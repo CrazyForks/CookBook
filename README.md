@@ -625,6 +625,14 @@ cd CookBook
 - [github地址](https://github.com/knightliao/disconf)
 - [文档](https://disconf.readthedocs.io/zh_CN/latest/)
 
+<a id="topic-encryption"></a>
+## **加密算法与安全**
+
+- :tada:[1-加密算法基础与工程实践](加密算法/1-加密算法基础与工程实践.md) - 对称加密(AES/ChaCha20)、非对称加密(RSA/ECC)、哈希算法(SHA/HMAC)、数字签名、TLS握手、Spring Boot集成、密钥管理
+- :tada:[2-Web安全与认证授权](加密算法/2-Web安全与认证授权.md) - SQL注入、XSS、CSRF防护、JWT认证、OAuth2授权、HTTPS配置、Spring Security
+- :tada:[3-密码存储与哈希算法](加密算法/3-密码存储与哈希算法.md) - bcrypt/Argon2原理、密码策略、密码轮换、Spring Security集成
+- :tada:[4-国密算法与合规实践](加密算法/4-国密算法与合规实践.md) - SM2非对称加密、SM3哈希、SM4对称加密、国密TLS配置、合规检查清单
+
 <a id="topic-architecture"></a>
 ## **架构**
 
