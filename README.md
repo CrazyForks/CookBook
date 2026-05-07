@@ -402,14 +402,14 @@ cd CookBook
 <a id="topic-mysql"></a>
 ## **MySQL**
 
-- 🌊.[MySql存储引擎](MySQL/2-MySql存储引擎.md)
-- 🌊.[InnoDB存储引擎](MySQL/3-InnoDB存储引擎.md)
-- 🌊.[MySQL数据库锁、事务隔离级别详解](MySQL/1-MySQL数据库读写锁示例详解、事务隔离级别示例详解.md)
-- 🌊.[Mysql主从复制](MySQL/999-Mysql主从复制.md)
-- 🌊.MySQL索引
-- 🌊.MySQL优化篇
-  - [MySQL数据库的索引原理、与慢SQL优化的5大原则](https://yq.aliyun.com/articles/661447?spm=a2c4e.11153940.0.0.527d158fbcXSEn)
-- 🌊.[CentOS7安装MariaDB的流程步骤](MySQL/007-CentOS7安装MariaDB的流程步骤.md)
+- :tada:[1-MySQL索引原理与优化](MySQL/1-MySQL索引原理与优化.md) - B+树原理、最左前缀原则、索引失效场景、执行计划分析、慢SQL优化、覆盖索引
+- :tada:[2-MySQL事务与锁机制](MySQL/2-MySQL事务与锁机制.md) - ACID特性、隔离级别、MVCC原理、锁类型（行锁/间隙锁/临键锁）、死锁处理、乐观锁与悲观锁
+- :tada:[3-MySQL性能调优与故障排查](MySQL/3-MySQL性能调优与故障排查.md) - 缓冲池优化、连接池配置、日志优化、慢SQL分析、锁问题排查、生产环境配置模板
+- [MySql存储引擎](MySQL/2-MySql存储引擎.md) - 存储引擎对比
+- [InnoDB存储引擎](MySQL/3-InnoDB存储引擎.md) - InnoDB架构与特性
+- [MySQL数据库锁、事务隔离级别详解](MySQL/1-MySQL数据库读写锁示例详解、事务隔离级别示例详解.md) - 锁与隔离级别实战
+- [Mysql主从复制](MySQL/999-Mysql主从复制.md) - 主从复制原理与配置
+- [MySQL索引原理与慢SQL优化](https://yq.aliyun.com/articles/661447?spm=a2c4e.11153940.0.0.527d158fbcXSEn)
 
 <a id="topic-spring"></a>
 ## **Spring**
@@ -533,9 +533,10 @@ cd CookBook
 <a id="topic-netty"></a>
 ## **NIO/Netty**
 
-- 1.[Netty第一个程序示例](src/main/java/org/byron4j/cookbook/netty)
-- 2.[Netty自定义传输协议](src/main/java/org/byron4j/cookbook/netty)
-- 3.[Netty登陆请求、验证登陆、获取响应示例](src/main/java/org/byron4j/cookbook/netty)
+- :tada:[1-Netty核心概念与架构](Netty/1-Netty核心概念与架构.md) - Reactor线程模型、核心组件（EventLoop/Channel/Pipeline/Handler）、编解码器、心跳机制、粘包拆包处理
+- [Netty第一个程序示例](src/main/java/org/byron4j/cookbook/netty/first) - 服务端与客户端示例
+- [Netty自定义传输协议](src/main/java/org/byron4j/cookbook/netty/apidemo) - 自定义协议编解码
+- [Netty登陆请求、验证登陆、获取响应示例](src/main/java/org/byron4j/cookbook/netty/login) - 登录功能实现
 
 ## **Tomcat**（建设中）
 
@@ -570,8 +571,10 @@ cd CookBook
 
 ## **Dubbo**
 
-- 😇[]()
-
+- :tada:[1-Dubbo核心概念与架构](Dubbo/1-Dubbo核心概念与架构.md) - RPC原理、架构设计、注册中心（Nacos/Zookeeper）、协议与序列化、负载均衡、集群容错、超时重试
+- [Dubbo入门](Dubbo/01-Dubbo入门.md) - Dubbo基础入门
+- [Dubbo实战](Dubbo/02-Dubbo实战.md) - Dubbo实战案例
+- [Dubbo原理源码篇](Dubbo/03-Dubbo原理源码篇.md) - Dubbo源码分析
 - RPC
     - Protobuf
         - [Protobuf基础教程](Protobuf/ProtobufTutorial/Protobuf基础教程.md)
